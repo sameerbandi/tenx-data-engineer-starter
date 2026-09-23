@@ -1,0 +1,11 @@
+fund_code,fund_name,fund_type,currency,superseded_by,effective_date
+FND-101,Maple Canadian Equity,MF,CAD,,
+FND-102,Maple Canadian Bond,MF,CAD,,
+FND-103,Maple Balanced Income,MF,CAD,,
+FND-104,Maple Global Dividend,MF,CAD,FND-104A,2026-08-20
+FND-104A,Maple Global Dividend (Series F),MF,CAD,,
+FND-105,Maple Money Market,MF,CAD,,
+FND-106,Maple Canadian Small Cap,MF,CAD,,
+FND-107,Maple US Equity ETF,ETF,USD,,
+FND-108,Maple US Aggregate Bond ETF,ETF,USD,,
+FND-109,Maple Canada Composite ETF,ETF,CAD,,

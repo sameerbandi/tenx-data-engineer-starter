@@ -1,0 +1,109 @@
+{
+  "track": "azure",
+  "legacy_position_count": 287,
+  "migrated_position_count": 275,
+  "total_market_value_cad": 5587822.61,
+  "market_value_cad_by_fund": {
+    "FND-101": 471569.84,
+    "FND-102": 237878.99,
+    "FND-103": 533428.63,
+    "FND-104A": 515846.74,
+    "FND-105": 185070.49,
+    "FND-106": 1000022.1,
+    "FND-107": 1156221.8,
+    "FND-108": 861634.62,
+    "FND-109": 626149.4
+  },
+  "discrepancies": [
+    {
+      "account_id": "ACC-1027",
+      "fund_code": "FND-101",
+      "category": "missing_in_target",
+      "detail": "Position missing in target migrated platform: legacy has units=1030.1081, market_value_cad=24674.49"
+    },
+    {
+      "account_id": "ACC-1027",
+      "fund_code": "FND-102",
+      "category": "missing_in_target",
+      "detail": "Position missing in target migrated platform: legacy has units=538.9865, market_value_cad=5756.38"
+    },
+    {
+      "account_id": "ACC-1027",
+      "fund_code": "FND-103",
+      "category": "missing_in_target",
+      "detail": "Position missing in target migrated platform: legacy has units=1046.6744, market_value_cad=16665.15"
+    },
+    {
+      "account_id": "ACC-1027",
+      "fund_code": "FND-104A",
+      "category": "missing_in_target",
+      "detail": "Position missing in target migrated platform: legacy has units=41.3121, market_value_cad=753.71"
+    },
+    {
+      "account_id": "ACC-1027",
+      "fund_code": "FND-106",
+      "category": "missing_in_target",
+      "detail": "Position missing in target migrated platform: legacy has units=1345.7984, market_value_cad=42317.15"
+    },
+    {
+      "account_id": "ACC-1027",
+      "fund_code": "FND-107",
+      "category": "missing_in_target",
+      "detail": "Position missing in target migrated platform: legacy has units=493.2926, market_value_cad=34351.70"
+    },
+    {
+      "account_id": "ACC-1027",
+      "fund_code": "FND-108",
+      "category": "missing_in_target",
+      "detail": "Position missing in target migrated platform: legacy has units=79.8631, market_value_cad=2978.09"
+    },
+    {
+      "account_id": "ACC-1034",
+      "fund_code": "FND-103",
+      "category": "missing_in_target",
+      "detail": "Position missing in target migrated platform: legacy has units=273.6775, market_value_cad=4357.49"
+    },
+    {
+      "account_id": "ACC-1034",
+      "fund_code": "FND-104A",
+      "category": "missing_in_target",
+      "detail": "Position missing in target migrated platform: legacy has units=1880.4383, market_value_cad=34307.09"
+    },
+    {
+      "account_id": "ACC-1034",
+      "fund_code": "FND-106",
+      "category": "missing_in_target",
+      "detail": "Position missing in target migrated platform: legacy has units=1575.0643, market_value_cad=49526.16"
+    },
+    {
+      "account_id": "ACC-1034",
+      "fund_code": "FND-108",
+      "category": "missing_in_target",
+      "detail": "Position missing in target migrated platform: legacy has units=26.0132, market_value_cad=970.03"
+    },
+    {
+      "account_id": "ACC-1034",
+      "fund_code": "FND-109",
+      "category": "missing_in_target",
+      "detail": "Position missing in target migrated platform: legacy has units=269.4351, market_value_cad=10478.01"
+    },
+    {
+      "account_id": "ACC-1011",
+      "fund_code": "FND-105",
+      "category": "value_mismatch",
+      "detail": "Value mismatch: legacy units=2013.2983 (mv_cad=20132.98) vs target units=2013.0000 (mv_cad=20130.00); diff units=+0.2983, diff mv_cad=+2.98"
+    },
+    {
+      "account_id": "ACC-1031",
+      "fund_code": "FND-105",
+      "category": "value_mismatch",
+      "detail": "Value mismatch: legacy units=294.3723 (mv_cad=2943.72) vs target units=294.0000 (mv_cad=2940.00); diff units=+0.3723, diff mv_cad=+3.72"
+    },
+    {
+      "account_id": "ACC-1038",
+      "fund_code": "FND-105",
+      "category": "value_mismatch",
+      "detail": "Value mismatch: legacy units=207.7756 (mv_cad=2077.76) vs target units=207.0000 (mv_cad=2070.00); diff units=+0.7756, diff mv_cad=+7.76"
+    }
+  ]
+}

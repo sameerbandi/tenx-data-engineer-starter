@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Reconciliation report",
+  "type": "object",
+  "required": ["track", "legacy_position_count", "migrated_position_count", "total_market_value_cad", "market_value_cad_by_fund", "discrepancies"],
+  "additionalProperties": false,
+  "properties": {
+    "track": {"type": "string", "enum": ["azure", "aws"]},
+    "legacy_position_count": {"type": "integer", "minimum": 0, "description": "Positions (account, fund) with non-zero units derived from legacy data as of 2026-08-31"},
+    "migrated_position_count": {"type": "integer", "minimum": 0, "description": "Rows in the migrated positions table"},
+    "total_market_value_cad": {"type": "number", "description": "Sum of market value in CAD over legacy-derived positions"},
+    "market_value_cad_by_fund": {"type": "object", "additionalProperties": {"type": "number"}, "description": "Legacy-derived market value in CAD per fund code"},
+    "discrepancies": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["account_id", "fund_code", "category", "detail"],
+        "additionalProperties": false,
+        "properties": {
+          "account_id": {"type": "string"},
+          "fund_code": {"type": "string"},
+          "category": {"type": "string", "enum": ["missing_in_target", "missing_in_source", "value_mismatch"]},
+          "detail": {"type": "string"}
+        }
+      }
+    }
+  }
+}
